@@ -11,7 +11,7 @@ namespace tpmodul7_Kelompok_LDI_6
     {
         public void readJSON()
         {
-            string jsonString = File.ReadAllText(@"D:\Dokumen\Kuliah\Semester 4\Konstruksi Perangkat Lunak\TP_MOD7_KPL-master\tpmodul7_Kelompok LDI_6\tp7_1_1302213007.json");
+            string jsonString = File.ReadAllText(@"D:\Dokumen\Kuliah\Semester 4\Konstruksi Perangkat Lunak\TP_MOD7_KPL-master\tpmodul7_Kelompok LDI_6\tp7_2_1302213007.json");
 
             dynamic jsonObject = JsonConvert.DeserializeObject(jsonString);
 
