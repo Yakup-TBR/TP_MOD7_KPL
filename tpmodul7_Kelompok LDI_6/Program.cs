@@ -1,2 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using tpmodul7_Kelompok_LDI_6;
+
+DataMahasiswa1302213103 objMhs = new DataMahasiswa1302213103();
+
+objMhs.readJSON();
